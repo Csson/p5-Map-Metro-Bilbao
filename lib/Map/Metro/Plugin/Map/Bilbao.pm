@@ -36,9 +36,21 @@ Map::Metro::Plugin::Map::Bilbao - Map::Metro map for Bilbao
 
 See L<Map::Metro> for usage information.
 
-=head1 Status
+=head1 STATUS
 
-...
+As of 2015-jan-05 it contains line 1 and 2, and the Mamariga shuttle, L<wikipedia|https://en.wikipedia.org/wiki/Metro_Bilbao>.
+
+See L<Map::Metro::Plugin::Map::Bilbao::Lines>.
+
+=head2 Note
+
+* The I<Ibarbengoa-Getxo> station is not included.
+
+=begin HTML
+
+<p><a href="https://raw.githubusercontent.com/Csson/p5-Map-Metro-Bilbao/master/static/images/bilbao.png"><img src="https://raw.githubusercontent.com/Csson/p5-Map-Metro-Bilbao/master/static/images/bilbao.png" style="max-width: 600px" /></a></p>
+
+=end HTML
 
 =head1 AUTHOR
 

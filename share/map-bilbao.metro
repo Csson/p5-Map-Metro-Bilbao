@@ -50,9 +50,9 @@ Kabiezes
 Mamariga
 
 --lines
-L1|L1|Line 1
-L2|L2|Line 2
-M|M|Mamariga shuttle
+L1|L1|Line 1|color:#f34d2e, width:8
+L2|L2|Line 2|color:#222222, width:8
+M|M|Mamariga shuttle|color:#777777, width:4
 
 --transfers
 
