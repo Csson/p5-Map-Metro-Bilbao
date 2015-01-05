@@ -1,0 +1,7 @@
+/Map-Metro-Plugin-Map-Bilbao-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
+/.prove

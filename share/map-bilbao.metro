@@ -1,0 +1,103 @@
+--stations
+
+# Line 1
+Etxebarri
+Bolueta
+Basarrate
+Santutxu
+Casco Viejo
+Abando
+Moyua
+Indautxu
+San Mames
+Deusto
+Sarriko
+San Inazio
+Lutxana
+Erandio
+Astrabudua
+Leioa
+Lamiako
+Areeta
+Gobela
+Neguri
+Aiboa
+Algorta
+Bidezabal
+Berango
+Larrabasterra
+Sopelana
+Urduliz
+Plentzia
+
+# Line 2
+Basauri
+Ariz
+
+Gurutzeta % Cruces
+Ansio
+Barakaldo
+Bagatza
+Urbinaga
+Sestao
+Abatxolo
+Portugalete
+Peñota
+Santurtzi
+Kabiezes
+
+# Mamariga shuttle
+Mamariga
+
+--lines
+L1|L1|Line 1
+L2|L2|Line 2
+M|M|Mamariga shuttle
+
+--transfers
+
+--segments
+L2|Basauri|Ariz
+L2|Ariz|Etxebarri
+
+L1,L2|Etxebarri|Bolueta
+L1,L2|Bolueta|Basarrate
+L1,L2|Basarrate|Santutxu
+L1,L2|Santutxu|Casco Viejo
+L1,L2|Casco Viejo|Abando
+L1,L2|Abando|Moyua
+L1,L2|Moyua|Indautxu
+L1,L2|Indautxu|San Mames
+L1,L2|San Mames|Deusto
+L1,L2|Deusto|Sarriko
+L1,L2|Sarriko|San Inazio
+L1|San Inazio|Lutxana
+L1|Lutxana|Erandio
+L1|Erandio|Astrabudua
+L1|Astrabudua|Leioa
+L1|Leioa|Lamiako
+L1|Lamiako|Areeta
+L1|Areeta|Gobela
+L1|Gobela|Neguri
+L1|Neguri|Aiboa
+L1|Aiboa|Algorta
+L1|Algorta|Bidezabal
+L1|Bidezabal|Berango
+L1|Berango|Larrabasterra
+L1|Larrabasterra|Sopelana
+L1|Sopelana|Urduliz
+L1|Urduliz|Plentzia
+
+L2|San Inazio|Gurutzeta
+L2|Gurutzeta|Ansio
+L2|Ansio|Barakaldo
+L2|Barakaldo|Bagatza
+L2|Bagatza|Urbinaga
+L2|Urbinaga|Sestao
+L2|Sestao|Abatxolo
+L2|Abatxolo|Portugalete
+L2|Portugalete|Peñota
+L2|Peñota|Santurtzi
+L2|Santurtzi|Kabiezes
+
+M|Santurtzi|Mamariga
