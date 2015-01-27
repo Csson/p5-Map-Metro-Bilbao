@@ -4,7 +4,7 @@
       "Erik Carlsson <info@code301.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 5.029, Dist::Iller version 0.1002, CPAN::Meta::Converter version 2.143240",
+   "generated_by" : "Dist::Zilla version 5.031, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "perl_5"
    ],
@@ -31,19 +31,21 @@
       },
       "develop" : {
          "requires" : {
-            "Test::EOF" : "0",
-            "Test::EOL" : "0",
-            "Test::More" : "0",
-            "Test::NoTabs" : "0",
             "Test::Pod" : "1.41"
          }
       },
       "runtime" : {
          "requires" : {
-            "Map::Metro" : "0.1900",
+            "Map::Metro" : "0.2206",
             "Moose::Role" : "2.0000",
             "perl" : "5.014000"
          }
+      }
+   },
+   "provides" : {
+      "Map::Metro::Plugin::Map::Bilbao" : {
+         "file" : "lib/Map/Metro/Plugin/Map/Bilbao.pm",
+         "version" : "0.1001"
       }
    },
    "release_status" : "stable",
@@ -51,13 +53,13 @@
       "bugtracker" : {
          "web" : "https://github.com/Csson/p5-Map-Metro-Bilbao/issues"
       },
-      "homepage" : "https://github.com/Csson/p5-Map-Metro-Bilbao",
+      "homepage" : "https://metacpan.org/release/Map-Metro-Plugin-Map-Bilbao",
       "repository" : {
          "type" : "git",
          "url" : "https://github.com/Csson/p5-Map-Metro-Bilbao.git",
          "web" : "https://github.com/Csson/p5-Map-Metro-Bilbao"
       }
    },
-   "version" : "0.0001"
+   "version" : "0.1001"
 }
 
