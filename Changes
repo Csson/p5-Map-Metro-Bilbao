@@ -1,4 +1,26 @@
 Revision history for Map-Metro-Plugin-Map-Bilbao
 
 {{$NEXT}}
-   - Initial release
+ [API Changes]
+
+ [Bug Fixes]
+ - Lines.pod replaces Lines.pm, and fixes version problem.
+
+ [Documentation]
+ - Cleanup, rebuilt with podweaver.
+
+ [Enhancements]
+
+ [Meta]
+ - Now uses @Author::CSSON dist zilla bundle, expanded.
+
+ [New Features]
+
+ [Revision]
+
+ [Requirements]
+ - Bumped Map::Metro to 0.2206.
+
+0.1000 2015-01-05T21:21:25Z CET
+ - Initial release
+
